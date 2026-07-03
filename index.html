@@ -1,10 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>Media Mix Management</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Media Mix Management</title>
+  <meta name="description" content="株式会社メディアミックスマネジメントの公式サイト">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <main class="site">
+    <section class="scene"><img src="p1.jpg" alt="Media Mix Management" class="panel-image"></section>
+    <section class="scene"><img src="p2.jpg" alt="企画" class="panel-image"></section>
+    <section class="scene"><img src="p3.jpg" alt="構成" class="panel-image"></section>
+    <section class="scene"><img src="p4.jpg" alt="撮影" class="panel-image"></section>
+    <section class="scene"><img src="p5.jpg" alt="編集" class="panel-image"></section>
+    <section class="scene"><img src="p6.jpg" alt="伝わる" class="panel-image"></section>
 
+    <section class="scene work-scene" id="work">
+      <img src="p7.jpg" alt="WORK" class="panel-image">
+      <div class="work-hotspots" aria-label="WORK menu">
+        <button type="button" data-work="youtube" aria-label="YouTube企画制作"></button>
+        <button type="button" data-work="corporate" aria-label="企業PR映像"></button>
+        <button type="button" data-work="tourism" aria-label="自治体・観光PR映像"></button>
+        <button type="button" data-work="presentation" aria-label="プレゼンテーション支援"></button>
+        <button type="button" data-work="television" aria-label="テレビ番組企画制作"></button>
+      </div>
+
+      <div class="work-detail" id="workDetail">
+        <p class="number" id="workNumber">01</p>
+        <h2 id="workTitle">YouTube企画制作</h2>
+        <p id="workText">チャンネルの魅力を引き出し<br>企画から撮影・編集・運用までを<br>一貫してプロデュースします</p>
+      </div>
+    </section>
+
+    <section class="scene"><img src="p8.jpg" alt="CONTACT" class="panel-image"></section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
