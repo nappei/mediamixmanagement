@@ -1,16 +1,14 @@
-Media Mix Management GitHub Final Upload
+Media Mix Management Site Final
 
-このフォルダの中身をGitHubリポジトリ直下へアップロードしてください。
-
-含まれるもの
-index.html
-style.css
-script.js
-favicon.png
-p1.jpg ～ p8.jpg
-design-master.png
+GitHubへアップロードするもの
+- index.html
+- css フォルダ
+- js フォルダ
+- images フォルダ
+- favicon.png
 
 仕様
-背景画像はアップロード済みのp1～p8をそのまま使用
-背景の再デザインや加工はしていません
-P7のみWORKクリックで右側説明が切り替わります
+- p1.jpg〜p8.jpgをそのまま使用
+- 背景画像の再生成や加工なし
+- object-fit: contain で画角を切らない表示
+- P7 WORKのみクリックで右側説明切替
